@@ -15,7 +15,7 @@ export type Bound = {
 
 export class MovingThing extends Thing {
 
-    protected Frame: number;
+    protected Frame: number = 0;
     protected SpeedY: number;
     protected SpeedX: number;
     protected JumpBoost: number;
